@@ -1,11 +1,11 @@
 {
-  "name": "demo-electron-quick-start",
+  "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager .",
+    "build": "electron-packager . --ignoer=node_modules --out=demo --ignore=demo",
     "rebuild": "electron-packager . --overwrite"
   },
   "repository": "https://github.com/electron/electron-quick-start",
