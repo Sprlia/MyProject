@@ -5,8 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . --ignoer=node_modules --out=demo --ignore=demo",
-    "rebuild": "electron-packager . --overwrite"
+    "build": "electron-packager . helloWorld --out=demo --overwrite"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
