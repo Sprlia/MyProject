@@ -1,0 +1,3 @@
+使用说明：
+	1：必须给需要滚动条的对象加。scroller属性
+	2：在$(document).ready(){}内加$(".scroller").scrollbar()

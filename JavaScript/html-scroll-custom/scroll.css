@@ -1,0 +1,17 @@
+
+.scroll_area {position:relative;overflow:hidden;width:auto;height:auto;float:inherit;}
+
+.scrollbar_x {width:100%;position:absolute;height:8px;left:0;bottom:0;background-color:#f5f6f9;margin:0 1px;}
+.scrollbar_y {height:100%;position:absolute;width:8px;top:0;right:0;background-color:#f5f6f9;margin:0 1px;}
+
+.scrollbar_x .scroll_dragger{height:8px;background-color:#d8dce5;}
+.scrollbar_y .scroll_dragger{width:8px;background-color:#d8dce5;}
+
+.scrollbar_y:hover{background-color:#dce1e4;}
+.scrollbar_y:hover .scroll_dragger{background-color:#9198a6;}
+
+.scrollbar_x:hover{background-color:#dce1e4;}
+.scrollbar_x:hover .scroll_dragger{background-color:#9198a6;}
+
+
+
